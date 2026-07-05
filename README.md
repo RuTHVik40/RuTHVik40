@@ -1,318 +1,235 @@
 <div align="center">
 
-# `RUTHVIK // COGNITION STACK`
+<br>
 
-### *An interface into how intelligent systems get built — not just trained.*
+# Models don't ship themselves.
+### I build what carries them the rest of the way.
 
-```
- DATA ──▶ REPRESENTATION ──▶ RETRIEVAL ──▶ REASONING ──▶ GENERATION ──▶ EVALUATION ──▶ DEPLOYMENT
-```
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=900&color=6FE3D1&center=true&vCenter=true&width=680&lines=models+are+one+component+of+the+system;retrieval+gives+them+context;knowledge+graphs+give+them+structure;engineering+makes+them+useful+in+production" alt="typing-banner" />
+**Manthoju Ruthvik Sai**
+GenAI Engineer · AI Systems Builder · Full-Stack Engineer
+
+<sub>B.E. Computer Science & Engineering — CBIT, Hyderabad</sub>
+
+<br>
+
+[`GitHub`](https://github.com/YOUR_GITHUB_USERNAME) · [`LinkedIn`](YOUR_LINKEDIN_URL) · [`Email`](mailto:YOUR_EMAIL)
 
 </div>
 
-<br/>
+<br>
+<br>
 
-## `> SYSTEM_IDENTITY`
+<div align="center">
 
-```yaml
-engineer:      Manthoju Ruthvik Sai
-designation:   GenAI Engineer / AI Systems Builder / Full-Stack Engineer
-education:     B.E. Computer Science & Engineering — CBIT, Hyderabad
-operating_philosophy: >
-  A language model is a reasoning core, not a product. I build the
-  scaffolding around it — retrieval that grounds it, graphs that give
-  it structure, and software engineering that turns inference into
-  something a real user can depend on.
-status:        ACTIVE_DEVELOPMENT
-```
-
-<br/>
-
-## `> ACTIVE_INTELLIGENCE_SYSTEMS`
-
-Four deployed systems, each exercising a different layer of the AI product stack.
-
-<br/>
+### Every system I build moves through the same four layers.
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### `[01] KG-RAG_TUTOR`
-**Knowledge Graph–Enhanced RAG AI Tutor**
-
-An intelligent tutoring engine that reasons over course material instead of just searching it — pairing vector retrieval with graph-structured context so answers stay grounded and explainable.
-
-```
-PDF_CORPUS
-   │
-   ▼
-CHUNKING ──▶ EMBEDDINGS ──▶ VECTOR_INDEX
-   │                              │
-   ▼                              ▼
-ENTITY/RELATION GRAPH ──▶ CONTEXT FUSION
-                              │
-                              ▼
-                     LLM REASONING LAYER
-                              │
-                              ▼
-                    GROUNDED RESPONSE
-```
-
-`RAG` `Knowledge Graphs` `Vector Retrieval` `LLM Orchestration`
-
-[`SOURCE →`](PROJECT_REPOSITORY_URL)
-
-</td>
-<td width="50%" valign="top">
-
-### `[02] AGRISHIELD`
-**Precision-Agriculture Intelligence Platform**
-
-A geospatial AI system for pest and disease detection — computer vision at the edge, spatial reasoning at the platform level, and community-sourced signal layered on top.
-
-```
-FIELD IMAGE
-   │
-   ▼
-CV DETECTION MODEL ──▶ CONFIDENCE SCORE
-   │
-   ▼
-GEOSPATIAL INDEX (PostGIS)
-   │
-   ▼
-PEST HEATMAP ──▶ NEARBY ALERT DISPATCH
-```
-
-`Computer Vision` `FastAPI` `PostgreSQL + PostGIS` `Next.js` `Geospatial Intelligence`
-
-[`SOURCE →`](PROJECT_REPOSITORY_URL)
-
-</td>
+<td align="center" width="25%"><b>SIGNAL</b><br><sub>raw data, documents, images</sub></td>
+<td align="center" width="25%"><b>STRUCTURE</b><br><sub>context, retrieval, grounding</sub></td>
+<td align="center" width="25%"><b>REASONING</b><br><sub>models, evaluation, inference</sub></td>
+<td align="center" width="25%"><b>EXPERIENCE</b><br><sub>interfaces people actually use</sub></td>
 </tr>
+</table>
+
+*You'll see these four words again. They're the throughline, not a slogan.*
+
+</div>
+
+<br>
+<br>
+
+## What I actually build
+
+Most people describe themselves as "interested in AI."
+That's not quite it.
+
+I build systems where a model is one component among many — sitting next to retrieval pipelines, knowledge structures, real-time infrastructure, and interfaces that make all of it usable by an actual person.
+
+Generative AI · Retrieval-Augmented Generation · Knowledge Graphs · NLP · Computer Vision · Agentic Systems · Full-Stack AI Products
+
+The model is rarely the hard part. Everything around it usually is.
+
+<br>
+<br>
+
+## Selected Systems
+
+<br>
+
+### 01 · A tutor that grounds itself before it speaks
+
+**Knowledge Graph-Enhanced RAG Tutor**
+
+Most RAG systems retrieve text and hope it's enough context. This one goes further — course material is broken down, embedded, and layered with a knowledge graph that captures how concepts actually relate to each other, so the model reasons over structure, not just fragments.
+
+<table>
+<tr><td align="center"><b>SIGNAL</b><br><sub>PDF ingestion</sub></td><td align="center">→</td><td align="center"><b>STRUCTURE</b><br><sub>chunking · embeddings · KG enrichment</sub></td><td align="center">→</td><td align="center"><b>REASONING</b><br><sub>context-aware LLM response</sub></td></tr>
+</table>
+
+`↳` [Repository](KG_RAG_REPOSITORY_URL)
+
+<br>
+
+### 02 · From "what's wrong with this plant" to "what's coming next"
+
+**AgriShield**
+
+A pest detection model can tell a farmer what's happening to one crop. AgriShield asks a bigger question — where else is this spreading, and who else should know. Vision-based detection feeds into geospatial intelligence, turning individual observations into shared, real-time awareness across a region.
+
+<table>
+<tr><td align="center"><b>detection</b></td><td align="center">→</td><td align="center"><b>location</b></td><td align="center">→</td><td align="center"><b>pattern</b></td><td align="center">→</td><td align="center"><b>warning</b></td><td align="center">→</td><td align="center"><b>community intelligence</b></td></tr>
+</table>
+
+FastAPI · PostgreSQL + PostGIS · Next.js PWA
+
+`↳` [Repository](AGRISHIELD_REPOSITORY_URL)
+
+<br>
+
+### 03 · Sharing code is trivial. Sharing state is not.
+
+**CodeSync**
+
+Two people typing in the same file sounds simple until you have to make it *feel* instant, stay consistent under conflicting edits, and hold a video call at the same time without anything falling out of sync.
+
+<table>
+<tr><td align="center"><b>Editor</b></td><td align="center">↔</td><td align="center"><b>Synchronization</b></td><td align="center">↔</td><td align="center"><b>Communication</b></td></tr>
+</table>
+
+MERN · Monaco Editor · Socket.IO · WebRTC · JWT
+
+`↳` [Repository](CODESYNC_REPOSITORY_URL)
+
+<br>
+
+### 04 · What a thousand documents are actually saying
+
+**NarrativeNexus**
+
+Large collections of text hold themes, sentiment, and shifts that are invisible one document at a time. NarrativeNexus applies topic modeling and language analysis at scale, turning unstructured text into something you can actually see and interpret.
+
+<table>
+<tr><td align="center">raw text</td><td align="center">→</td><td align="center">signals</td><td align="center">→</td><td align="center">topics</td><td align="center">→</td><td align="center">sentiment</td><td align="center">→</td><td align="center">insight</td></tr>
+</table>
+
+LDA · NMF · Sentiment Analysis · Summarization · Streamlit
+
+`↳` [Repository](NARRATIVENEXUS_REPOSITORY_URL)
+
+<br>
+<br>
+
+## On engineering AI
+
+A model is not the product. It's one layer of one.
+
+The parts that actually determine whether something works in production rarely show up in a demo — data worth trusting, context worth retrieving, grounding that holds up under real questions, evaluation that catches failure before a user does, latency that respects someone's patience, and an interface simple enough that none of the above needs explaining.
+
+I try to design for all of it, not just the inference call in the middle.
+
+<br>
+<br>
+
+## What I can engineer
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-### `[03] CODESYNC`
-**Real-Time Collaborative Engineering Environment**
+**Intelligence & Language**
+PyTorch · Transformers · Scikit-learn
+NLTK · spaCy · Gensim
+Pandas · NumPy
+RAG · NLP · Topic Modeling · Embeddings
 
-A pair-programming runtime built on synchronized state rather than polling — shared editor buffers, live video, and auth, all reconciled in real time.
-
-```
-CLIENT_A ──┐
-           ├──▶ SOCKET.IO SYNC LAYER ──▶ MONACO BUFFER
-CLIENT_B ──┘            │
-                         ▼
-                  WEBRTC VIDEO CHANNEL
-                         │
-                         ▼
-                    JWT SESSION AUTH
-```
-
-`MERN` `Socket.IO` `WebRTC` `Monaco Editor` `JWT`
-
-[`SOURCE →`](PROJECT_REPOSITORY_URL)
+**AI Backend Systems**
+Python · FastAPI · Flask
+Node.js · Express.js
+REST API Design
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-### `[04] NARRATIVENEXUS`
-**Dynamic Text Intelligence Platform**
+**Product Experiences**
+React · Next.js · Streamlit
+Tailwind CSS · JavaScript
 
-A text-analytics surface for making sense of large unstructured corpora — topic structure, sentiment, and compression, exposed through an interactive interface.
+**Data & Knowledge Infrastructure**
+PostgreSQL · PostGIS
+MongoDB · MySQL · SQLite
 
-```
-RAW_TEXT_CORPUS
-   │
-   ▼
-NLP PREPROCESSING
-   │
-   ├──▶ LDA / NMF ──▶ TOPIC STRUCTURE
-   ├──▶ SENTIMENT MODEL ──▶ POLARITY SIGNAL
-   └──▶ SUMMARIZATION ──▶ COMPRESSED NARRATIVE
-```
+**Real-Time Engineering**
+Socket.IO · WebRTC
+Collaborative state synchronization
 
-`Topic Modelling` `Sentiment Analysis` `Summarization` `Streamlit`
-
-[`SOURCE →`](PROJECT_REPOSITORY_URL)
+**Deployment**
+Docker · Git · GitHub
 
 </td>
 </tr>
 </table>
 
-<br/>
+<br>
+<br>
 
-## `> GET /engineer/capabilities`
-
-<table>
-<tr><td>
-
-```json
-HTTP/1.1 200 OK
-Content-Type: application/json
-
-{
-  "engineer": "Manthoju Ruthvik Sai",
-  "capabilities": {
-    "languages": [
-      "python", "java", "javascript", "sql", "php"
-    ],
-    "ai_ml": [
-      "pytorch", "scikit-learn", "transformers",
-      "spacy", "gensim", "nltk", "pandas", "numpy"
-    ],
-    "backend": [
-      "fastapi", "flask", "node.js", "express.js", "laravel"
-    ],
-    "frontend": [
-      "react", "next.js", "tailwindcss", "streamlit"
-    ],
-    "data_layer": [
-      "postgresql", "postgis", "mongodb", "mysql", "sqlite"
-    ],
-    "systems": [
-      "docker", "git", "rest_apis", "socket.io", "webrtc"
-    ]
-  },
-  "specializations": [
-    "retrieval_augmented_generation",
-    "knowledge_graph_rag",
-    "ai_agents",
-    "computer_vision",
-    "full_stack_ai_products"
-  ],
-  "response_time": "production-ready"
-}
-```
-
-</td></tr>
-</table>
-
-<br/>
-
-## `> ENGINEERING_RUNTIME`
+## The path here
 
 <div align="center">
 
-**core**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,java,js,php&theme=dark" />
-
-**intelligence layer**
-<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" />
-
-**service layer**
-<br/>
-<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,laravel&theme=dark" />
-
-**interface layer**
-<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" />
-
-**persistence layer**
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite&theme=dark" />
-
-**infrastructure**
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,git,github&theme=dark" />
+Algorithms → Full-Stack Systems → Machine Learning → NLP → RAG → Knowledge-Aware AI → **Agentic Systems**
 
 </div>
 
-<br/>
+Every layer since "algorithms" is still load-bearing. The AI work stands on the software engineering underneath it, not instead of it. The last arrow doesn't have an endpoint yet — that part's still moving.
 
-## `> INFERENCE_TRACE`
-*How a build request gets processed.*
+<br>
+<br>
 
-```
-> INPUT: "build a feature that needs intelligence, not just an API call"
+## Selected signals
 
-[1] SCOPE      → what does this actually need to reason over?
-[2] GROUND     → what data/context must the model see to not hallucinate?
-[3] STRUCTURE  → does this need retrieval only, or graph relationships too?
-[4] ARCHITECT  → design the pipeline before touching the model
-[5] IMPLEMENT  → backend, storage, and interface, built as one system
-[6] EVALUATE   → does the output hold up outside the demo?
-[7] SHIP       → deploy, monitor, iterate
+<table>
+<tr><td width="70%">Infosys Springboard Internship 6.0</td><td align="right">Internship</td></tr>
+<tr><td>Amazon Machine Learning Summer School 2025</td><td align="right">Selected Participant</td></tr>
+<tr><td>Full-Stack Development Internship</td><td align="right">Internship</td></tr>
+<tr><td>Flipkart GRiD 7.0</td><td align="right">National Semi-Finalist</td></tr>
+<tr><td>Hackathon</td><td align="right">Finalist</td></tr>
+<tr><td>Competitive Coding Co-Lead, Developers Club — CBIT</td><td align="right">Role</td></tr>
+<tr><td>Algorithmic problems solved</td><td align="right"><b>650+</b></td></tr>
+</table>
 
-> OUTPUT: a system that works when the prompt isn't perfect
-```
+<br>
 
-<br/>
+<sub>**Credentials** — Oracle Data Science Professional · Oracle Generative AI Professional · HackerRank Python · HackerRank SQL · NPTEL Java Programming</sub>
 
-## `> TRAINING_LOG`
-*Experience, distilled — not a resume dump.*
+<br>
+<br>
 
-<details>
-<summary><b>EXPAND — programs, internships, competition record</b></summary>
+## Currently in progress
 
-<br/>
+Agentic AI architectures · Advanced RAG systems · Knowledge graphs for LLM grounding · AI evaluation · Context engineering · Multi-step reasoning · Production AI architecture
 
-| Track | Detail |
-|---|---|
-| `ml_training` | Amazon Machine Learning Summer School 2025 |
-| `internship` | Infosys Springboard Internship 6.0 |
-| `internship` | Full-Stack Engineering Internship |
-| `competition` | Flipkart GRiD 7.0 — National Semi-Finalist |
-| `competition` | Hackathon Finalist |
-| `competition` | 650+ algorithmic problems solved across competitive platforms |
-| `leadership` | Competitive Coding Co-Lead, Developers Club — CBIT |
+Less "learning AI," more "learning where AI breaks in production — and building around it."
 
-</details>
-
-<br/>
-
-## `> MODEL_CARD :: CERTIFICATIONS`
-
-<details>
-<summary><b>EXPAND — verified credentials</b></summary>
-
-<br/>
-
-```
-Oracle Data Science Professional
-Oracle Generative AI Professional
-HackerRank — Python (Verified)
-HackerRank — SQL (Verified)
-NPTEL — Java Programming
-```
-
-</details>
-
-<br/>
-
-## `> MODEL_UPDATE_IN_PROGRESS`
-
-```diff
-+ scaling agentic workflows beyond single-shot RAG
-+ multi-hop reasoning over knowledge graphs
-+ evaluation frameworks for GenAI system reliability
-```
-
-<br/>
-
-## `> OPEN_CONNECTION`
+<br>
+<br>
 
 <div align="center">
 
-```
-POST /connect
-{
-  "github":   "YOUR_GITHUB_USERNAME",
-  "linkedin": "YOUR_LINKEDIN_URL",
-  "email":    "YOUR_EMAIL"
-}
-```
+<br>
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-6FE3D1?style=for-the-badge&logo=github&logoColor=0D1117" /></a>
-<a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-6FE3D1?style=for-the-badge&logo=linkedin&logoColor=0D1117" /></a>
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-6FE3D1?style=for-the-badge&logo=gmail&logoColor=0D1117" /></a>
+### If you're building at the layer between a model and a product, I'd like to hear about it.
 
-<br/><br/>
+**GenAI Engineering · RAG · Applied ML · Full-Stack AI Systems**
 
-`> connection established — awaiting next build`
+[`GitHub`](https://github.com/YOUR_GITHUB_USERNAME) · [`LinkedIn`](YOUR_LINKEDIN_URL) · [`Email`](mailto:YOUR_EMAIL)
+
+<br>
+
+<sub>SIGNAL → STRUCTURE → REASONING → EXPERIENCE</sub>
+
+<br>
 
 </div>
